@@ -26,6 +26,7 @@ namespace Shapes
         public void CalcArea()
         {
             Area = Lenght * Width;
+            Console.Write($"The Area of the Square is {Area}");
         }
     }
 }
